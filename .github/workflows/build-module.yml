@@ -16,17 +16,8 @@ jobs:
             pkgarch: x86_64
             target: x86
             subtarget: 64
-            vermagic: "af351158cfb5febf5155a3aa53785982-r1"
-          - tag: "23.05.0"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
-          - tag: "23.05.2"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7621
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+            vermagic: "af351158cfb5febf5155a3aa53785982"
+
 
     steps:
       - uses: actions/checkout@v4
